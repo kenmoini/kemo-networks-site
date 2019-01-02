@@ -1,0 +1,14 @@
+				<li class="post-item">
+                                        <div>
+						<a href="{{ .Params.linklocation }}">
+	                                                <span class="post-title">
+								{{.Title}}
+								<br /><small>{{ .Params.linklocation }}</small>
+							</span>
+	                                                <span class="post-day">{{ .Date.Format .Site.Params.dateformShort }}</span>
+	                                        </a>
+					</div>
+					<div>
+						<strong>Tags</strong>{{ range .Params.tags }} <span class="badge badge-info">{{ . }}</span> {{ end }}
+					</div>
+                                </li>

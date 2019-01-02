@@ -1,0 +1,54 @@
+html, body {
+	background:#39424E !important;
+	background-color:#39424E !important;
+}
+span.badge {
+	padding:0.125rem;
+	color:#EEE;
+	background:#2d2f36;
+	margin:0.5rem;
+}
+.posts-group .post-item {
+	padding-bottom: 1rem;
+}
+
+.gallery-page h2 {
+	border-bottom:1px solid;
+	padding-bottom:1rem;
+	margin-bottom:1rem;
+}
+.gallery-page .posts-group .post-item {
+	border-bottom:none;
+	max-height:210px;
+	overflow:hidden;
+}
+.img-responsive {
+	max-width:100%;
+}
+.col-sm-12 {
+	width:96%;
+	margin:0 2%;
+	float:left;
+}
+
+@media (min-width: 576px) {
+	.col-md-6 {
+		margin: 0 2%;
+		width:46%;
+		float:left;
+	}
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+	.col-lg-4 {
+		width:31%;
+		margin: 0 1%;
+		float:left;
+	}
+}
+
+@media (min-width: 1200px) {
+}
