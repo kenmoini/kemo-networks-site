@@ -8,10 +8,22 @@ span.badge {
 	background:#2d2f36;
 	margin:0.5rem;
 }
-.posts-group .post-item {
-	padding-bottom: 1rem;
+.text-center {
+	text-align:center;
 }
+.three-by {
+	max-width:33vw;
+	width:30% !important;
+	margin:1rem 1% !important;
+	display:inline-block;
 
+}
+.posts-group .post-item {
+	padding: 1rem;
+}
+.gallery-page .posts-group .post-item {
+	padding:0 0 1rem 0;
+}
 .gallery-page h2 {
 	border-bottom:1px solid;
 	padding-bottom:1rem;

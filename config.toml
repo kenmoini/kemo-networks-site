@@ -3,7 +3,8 @@ languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Kemo Networks"
 theme = "hermit"
-# enableGitInfo = true
+pygmentsUseClassic = true
+enableGitInfo = true
 rssLimit = 20  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
@@ -34,13 +35,13 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # bgImg = ""  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  # gitUrl = "https://github.com/username/repository/commit/"
+  gitUrl = "https://github.com/kenmoini/kemo-networks-site/commit/"
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
   justifyContent = false  # Set "text-align: justify" to .content.
 
   # Add custom css
-  # customCSS = ["css/foo.css", "css/bar.css"]
+  customCSS = ["/css/syntax.css"]
 
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
