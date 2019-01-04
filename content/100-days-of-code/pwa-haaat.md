@@ -1,7 +1,7 @@
 ---
 title: "PWA-Haaat"
 date: 2019-01-03T22:31:48-05:00
-draft: true
+draft: false
 tags: 
   - progressive web design
   - pwa
