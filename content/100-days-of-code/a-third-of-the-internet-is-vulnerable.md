@@ -1,7 +1,7 @@
 ---
 title: "A Third of the Internet Is Vulnerable"
 date: 2019-01-04T20:38:59-05:00
-draft: true
+draft: false
 tags: 
   - WordPress
   - jQuery
