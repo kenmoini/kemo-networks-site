@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: dev-sites-kemo-network
+  
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: stage-sites-kemo-network
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: prod-sites-kemo-network
